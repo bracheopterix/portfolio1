@@ -1,35 +1,51 @@
+body {
+    background: rgb(24, 24, 24);
+    padding: 0;
+
+}
 header {
+    /* display: inline; */
     width: 100%;
-    height: 500px;
-    background: rgb(63, 94, 251);
-    background: linear-gradient(343deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    height: 470px;
+    background: rgb(24, 24, 24);
+    background: linear-gradient(343deg, rgb(24, 24, 24) 0%, rgba(252, 70, 107, 1) 100%);
     margin: 0;
     font: normal 40px 'Lobster';
 }
 
-header div {
-    height: 100%;
+.text-box {
+    float:left;
     display: inline;
     text-align: center;
-    margin-top: 300px;
+    margin: 300px;
+    margin-left: 200px;
+    margin-right: 0;
 }
 
-header img {
+.portrait {
     float: right;
-    width: 600px;
+    height: 600px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.24);
     border: 2px solid white;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    margin-right: 200px;
+    margin-top: 80px;
 }
 
-.inline-element {
-    display: inline;
-}
+    header img {
+        margin-top: 100px;
+        width: 500px;
+    }
+
+
 
 header h1 {
     color: white;
-    font: normal 130px 'Lobster';
-    margin: 0;
+    font: normal 110px 'Lobster';
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 header p {
